@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #3d3d3d;
+    margin: 0;
+}
+
+ .wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.show_info_user li{
+    
+    width: 100%;
+    border: 1px solid black;
+    list-style: none;
+   text-decoration: none;  
+    
+    
+  }
+  
+  .show_info_user li a{
+      
+    width: 100%;
+    
+  }
+
+
+
+header{
+    width: 100%;
+    height: 30%;
+    /* background-color: blueviolet; */
+    /* display: block;
+    unicode-bidi: isolate; */
+}
+
+.top-banner{
+    width: 100%;
+    height: 50%;
+    /* background-color: aquamarine; */
+
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    border: 0;
+}
+
+
+header .header-left {
+    position: relative;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+    background: #fff;
+    padding: 27px 0;
+    width: 100%;
+    float: left;
+}
+
+.search-bar{
+    width: 100%;
+    height: 30%;
+    
+    
+}
+
+.main_menu_area{
+    background: #b216c6; 
+    width: 100%;
+    height: 20%;
+    
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.header_menu_right {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-right: 1px solid #fff;
+    padding: 0 30px;
+    margin-top: 15px;
+    transition: 0.5s ease-in-out;
+    line-height: 1;
+}
+
+.header_menu_right a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header_menu_right:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+.icon {
+    position: relative;
+    padding-left: 30px;
+}
+.icon-user:before {
+    background: url(../../img/user.svg) center center no-repeat;
+    background-size: contain;
+}
+.icon:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    
+    /* display: block;
+    unicode-bidi: isolate; */
+}
+
+main .nav{
+    width: 20%;
+    height: auto;
+    background-color:aquamarine;
+}
+
+main .content{
+    width: 80%;
+    height: auto;
+    background-color: aqua;
+}
+
+ul.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul.product li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+
+}
+
+ul.product li img{
+    max-width: 100%;
+    height: auto;
+}
+ul.product li .product-top{
+    position: relative;
+    overflow:  hidden;
+}
+ul.product li .product-top .product-thumb {
+    display:block;
+}
+ul.product li:hover .product-top .product-thumb {
+    filter: opacity(80%);
+}
+ul.product li .product-top .product-thumb img{
+    display:block;
+}
+ul.product li .product-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+
+}
+ul.product li:hover a.buy-now{
+    bottom: 0px;
+}
+ul.product li .product-info{
+    padding: 10px 0px;
+
+}
+ul.product li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+
+ul.product li .product-info a.product-cat{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    padding:  3px 0px;
+}
+
+ul.product li .product-info a.product-name{
+    color: #334862;
+    padding: 3px 0px;
+
+}
+
+ul.product li .product-info a.product-prize{
+    color: #111;
+    padding: 2px 0px;
+    font-weight: 600px;
+}
+
+
+
+
